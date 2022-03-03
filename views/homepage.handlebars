@@ -4,7 +4,10 @@
     <div class='col-md-3'>
       <h2>
         <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-        {{{get_emoji}}}
+        
+        <a target="_blank" href={{book.thumbnailUrl}}>
+          <img  src={{book.thumbnailUrl}} style="width:150px">
+        </a>
         <a href='/book/{{book.id}}'>{{book.title}}</a>
       </h2>
       <p>Created by {{book.user.name}} on {{format_date book.date_created}}</p>
