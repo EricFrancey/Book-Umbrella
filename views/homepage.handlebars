@@ -1,7 +1,7 @@
 <!-- Loop over each object in the projects array -->
 {{#each books as |book|}}
   <div class='row mb-4 project'>
-    <div class='col-md-5'>
+    <div class='col-md-3'>
       <h2>
         <!-- Call helper function with triple brackets to render the emoji span as HTML -->
         {{{get_emoji}}}
@@ -9,7 +9,7 @@
       </h2>
       <p>Created by {{book.user.name}} on {{format_date book.date_created}}</p>
     </div>
-    <div class='col-md-7'>
+    <div class='col-md-9'>
       <p>
         {{book.longDescription}}
       </p>
