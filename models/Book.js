@@ -23,6 +23,9 @@ Book.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
+    thumbnailUrl: {
+      type: DataTypes.STRING,
+    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
