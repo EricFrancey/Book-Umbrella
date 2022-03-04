@@ -17,7 +17,7 @@
 [Questions](#questions)
 
 ## Description
-This application is a digital library that enables you to make a profile and save your favourite books for later or add books
+This application is a digital library that enables you to make a profile and save your favourite books for later or add books for others to use
 
 ## License
 This product is under the The Unlicense.
