@@ -1,4 +1,4 @@
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes, Sequelize } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Book extends Model {}
@@ -15,6 +15,9 @@ Book.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    shortDescription: {
+      type: DataTypes.TEXT,
+    },
     longDescription: {
       type: DataTypes.TEXT,
     },
@@ -25,6 +28,16 @@ Book.init(
     },
     thumbnailUrl: {
       type: DataTypes.STRING,
+    },
+    authors: {
+      type: Sequelize.STRING,
+      allowNull: false,
+      get() {
+        return this.getDataValue('authors').split(',')
+    },
+      set(val) {
+      this.setDataValue('authors',val.join(','+' '));
+    },
     },
     user_id: {
       type: DataTypes.INTEGER,

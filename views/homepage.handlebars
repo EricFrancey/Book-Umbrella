@@ -1,24 +1,29 @@
 <!-- Loop over each object in the projects array -->
 {{#each books as |book|}}
-  <div class='row mb-4 project'>
-    <div class='col-md-3'>
+  <div class='card mt-5'>
+    <div class=''>
       <h2>
-        <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-
-        <a target='_blank' href={{book.thumbnailUrl}}>
-          <img src={{book.thumbnailUrl}} style='width:150px' />
+                
+        <a target="_blank" href={{book.thumbnailUrl}} style="height: 100rem width: 75rem">
+          <img  src={{book.thumbnailUrl}}>
         </a>
-        <br />
-        <a href='/book/{{book.id}}'>{{book.title}}</a>
+        <a href='/book/{{book.id}}'>
+        <br>
+        {{book.title}}
+        </a>
+    
       </h2>
-      <p>Created by
-        {{book.user.name}}
-        on
-        <br />{{format_date book.date_created}}</p>
-    </div>
-    <div class='col-md-9'>
+        
       <p>
-        {{book.longDescription}}
+        {{book.shortDescription}}
+      </p>
+    
+    </div>
+        {{!-- {{format_date book.date_created}} --}}
+        
+    <div class=''>
+      <p>
+        Author(s): {{book.authors}} 
       </p>
     </div>
   </div>
