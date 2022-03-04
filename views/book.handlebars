@@ -1,11 +1,57 @@
 <div class='text-center'>
   <h2>{{title}}</h2>
-  <p>{{{get_emoji}}}</p>
+  <a target='_blank' href={{thumbnailUrl}}>
+    <img src={{thumbnailUrl}} style='width:150px' />
+  </a>
   <p>{{longDescription}}</p>
-  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <p>Added by: {{name}} on {{format_date date_created}}</p>
+
+  <br />
+
+  <div>
+    {{#if comments.length}}
+      <h3>Book Comments:</h3>
+      {{#each comments as |comment|}}
+        <div class='mb-2'>
+          <div>
+            <p>{{comment.description}} -- By: {{comment.name}} </p>
+          </div>
+        </div>
+      {{/each}}
+    {{/if}}
+    <br />
+  </div>
+  <hr />
+  <br />
   {{#if logged_in}}
-    <button class='btn btn-primary'>Add a Comment!</button>
+    <form class='form new-project-form'>
+      <div class='form-group'>
+        <label for='comment-desc'>Want to contribute?</label>
+        <div class='form-group'>
+          <label for='name-signup'>Enter your name:</label>
+          <input class='form-input' type='text' id='comment-name' />
+        </div>
+        <div class='form-group'>
+          <label for='name-signup'>Enter your comment:</label>
+          <textarea
+            class='form-input'
+            id='comment-desc'
+            name='comment-desc'
+          ></textarea>
+        </div>
+
+      </div>
+      <div class='form-group'>
+        <button type='submit' class='btn btn-primary'>Add a comment!</button>
+      </div>
+    </form>
   {{else}}
     <a href='/login'>Login to Add a Comment</a>
   {{/if}}
 </div>
+{{#if logged_in}}
+  <script src='/js/comment.js'></script>
+{{/if}}
+<br />
+<br />
+<hr />
