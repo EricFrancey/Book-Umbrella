@@ -1,10 +1,9 @@
 <!-- Loop over each object in the projects array -->
 {{#each books as |book|}}
   <div class='card'>
-    <div class='col-md-3'>
+    <div class=''>
       <h2>
-        <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-        
+                
         <a target="_blank" href={{book.thumbnailUrl}}>
           <img  src={{book.thumbnailUrl}} style="width:150px">
         </a>
@@ -12,17 +11,19 @@
         <br>
         {{book.title}}
         </a>
+    
       </h2>
-      <p>
-        Author(s): {{book.authors}} 
         
-        {{!-- {{format_date book.date_created}} --}}
-        
-        </p>
-    </div>
-    <div class='col-md-9'>
       <p>
         {{book.shortDescription}}
+      </p>
+    
+    </div>
+        {{!-- {{format_date book.date_created}} --}}
+        
+    <div class=''>
+      <p>
+        Author(s): {{book.authors}} 
       </p>
     </div>
   </div>
