@@ -8,13 +8,21 @@
         <a target="_blank" href={{book.thumbnailUrl}}>
           <img  src={{book.thumbnailUrl}} style="width:150px">
         </a>
-        <a href='/book/{{book.id}}'>{{book.title}}</a>
+        <a href='/book/{{book.id}}'>
+        <br>
+        {{book.title}}
+        </a>
       </h2>
-      <p>Created by {{book.user.name}} on {{format_date book.date_created}}</p>
+      <p>
+        Author(s): {{book.authors}} 
+        
+        {{!-- {{format_date book.date_created}} --}}
+        
+        </p>
     </div>
     <div class='col-md-9'>
       <p>
-        {{book.longDescription}}
+        {{book.shortDescription}}
       </p>
     </div>
   </div>
