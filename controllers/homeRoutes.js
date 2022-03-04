@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Book, User } = require('../models');
+const { Book, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -30,18 +30,22 @@ router.get('/', async (req, res) => {
 router.get('/book/:id', async (req, res) => {
   try {
     const bookData = await Book.findByPk(req.params.id, {
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
+      include: [{ model: Comment }],
     });
 
     const book = bookData.get({ plain: true });
 
+    const userData = await User.findOne({
+      where: {
+        id: book.user_id,
+      },
+    });
+
+    const user = userData.get({ plain: true });
+
     res.render('book', {
       ...book,
+      ...user,
       logged_in: req.session.logged_in,
     });
   } catch (err) {

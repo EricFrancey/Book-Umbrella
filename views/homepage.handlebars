@@ -11,7 +11,10 @@
         <br />
         <a href='/book/{{book.id}}'>{{book.title}}</a>
       </h2>
-      <p>Created by {{book.user.name}} on {{format_date book.date_created}}</p>
+      <p>Created by
+        {{book.user.name}}
+        on
+        <br />{{format_date book.date_created}}</p>
     </div>
     <div class='col-md-9'>
       <p>
