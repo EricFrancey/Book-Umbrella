@@ -1,11 +1,11 @@
 <!-- Loop over each object in the projects array -->
 {{#each books as |book|}}
-  <div class='card'>
+  <div class='card mt-5'>
     <div class=''>
       <h2>
                 
-        <a target="_blank" href={{book.thumbnailUrl}}>
-          <img  src={{book.thumbnailUrl}} style="width:150px">
+        <a target="_blank" href={{book.thumbnailUrl}} style="height: 100rem width: 75rem">
+          <img  src={{book.thumbnailUrl}}>
         </a>
         <a href='/book/{{book.id}}'>
         <br>

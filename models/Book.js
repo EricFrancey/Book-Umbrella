@@ -23,6 +23,9 @@ Book.init(
     shortDescription: {
       type: DataTypes.TEXT,
     },
+    longDescription: {
+      type: DataTypes.TEXT,
+    },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
