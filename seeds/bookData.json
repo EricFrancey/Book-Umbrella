@@ -8,7 +8,7 @@
     "shortDescription": "Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout.",
     "longDescription": "Android is an open source mobile phone platform based on the Linux operating system and developed by the Open Handset Alliance, a consortium of over 30 hardware, software and telecom companies that focus on open standards for mobile devices. Led by search giant, Google, Android is designed to deliver a better and more open and cost effective mobile experience.    Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout. Based on his mobile development experience and his deep knowledge of the arcane Android technical documentation, the author conveys the know-how you need to develop practical applications that build upon or replace any of Androids features, however small.    Unlocking Android: A Developer's Guide prepares the reader to embrace the platform in easy-to-understand language and builds on this foundation with re-usable Java code examples. It is ideal for corporate and hobbyists alike who have an interest, or a mandate, to deliver software functionality for cell phones.    WHAT'S INSIDE:        * Android's place in the market      * Using the Eclipse environment for Android development      * The Intents - how and why they are used      * Application classes:            o Activity            o Service            o IntentReceiver       * User interface design      * Using the ContentProvider to manage data      * Persisting data with the SQLite database      * Networking examples      * Telephony applications      * Notification methods      * OpenGL, animation & multimedia      * Sample Applications  ",
     "status": "PUBLISH",
-    "authors": ["W. Frank Ableson", "Charlie Collins", "Robi Sen"],
+    "authors": "W. Frank Ableson, Charlie Collins, Robi Sen",
     "categories": ["Open Source", "Mobile"]
   },
   {
@@ -20,7 +20,7 @@
     "shortDescription": "Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. ",
     "longDescription": "When it comes to mobile apps, Android can do almost anything   and with this book, so can you! Android runs on mobile devices ranging from smart phones to tablets to countless special-purpose gadgets. It's the broadest mobile platform available.    Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. ",
     "status": "PUBLISH",
-    "authors": ["W. Frank Ableson", "Robi Sen"],
+    "authors": "W. Frank Ableson, Robi Sen",
     "categories": ["Java"]
   },
   {
@@ -31,7 +31,7 @@
     "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed.jpg",
     "longDescription": "New web applications require engaging user-friendly interfaces   and the cooler, the better. With Flex 3, web developers at any skill level can create high-quality, effective, and interactive Rich Internet Applications (RIAs) quickly and easily. Flex removes the complexity barrier from RIA development by offering sophisticated tools and a straightforward programming language so you can focus on what you want to do instead of how to do it. And now that the major components of Flex are free and open-source, the cost barrier is gone, as well!    Flex 3 in Action is an easy-to-follow, hands-on Flex tutorial. Chock-full of examples, this book goes beyond feature coverage and helps you put Flex to work in real day-to-day tasks. You'll quickly master the Flex API and learn to apply the techniques that make your Flex applications stand out from the crowd.    Interesting themes, styles, and skins  It's in there.  Working with databases  You got it.  Interactive forms and validation  You bet.  Charting techniques to help you visualize data  Bam!  The expert authors of Flex 3 in Action have one goal   to help you get down to business with Flex 3. Fast.    Many Flex books are overwhelming to new users   focusing on the complexities of the language and the super-specialized subjects in the Flex eco-system; Flex 3 in Action filters out the noise and dives into the core topics you need every day. Using numerous easy-to-understand examples, Flex 3 in Action gives you a strong foundation that you can build on as the complexity of your projects increases.",
     "status": "PUBLISH",
-    "authors": ["Tariq Ahmed with Jon Hirschi", "Faisal Abid"],
+    "authors": "Tariq Ahmed with Jon Hirschi, Faisal Abid",
     "categories": ["Internet"]
   },
   {
@@ -42,7 +42,7 @@
     "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed2.jpg",
     "longDescription": "Using Flex, you can create high-quality, effective, and interactive Rich Internet Applications (RIAs) quickly and easily. Flex removes the complexity barrier from RIA development by offering sophisticated tools and a straightforward programming language so you can focus on what you want to do instead of how to do it. And the new features added in Flex 4 give you an even wider range of options!    Flex 4 in Action is an easy-to-follow, hands-on Flex tutorial that goes beyond feature coverage and helps you put Flex to work in real day-to-day tasks. You'll quickly master the Flex API and learn to apply the techniques that make your Flex applications stand out from the crowd.    The expert authors of Flex 4 in Action have one goal-to help you get down to business with Flex. Fast. Flex 4 in Action filters out the noise and dives into the core topics you need every day. Using numerous easy-to-understand examples, Flex 4 in Action gives you a strong foundation that you can build on as the complexity of your projects increases.    Interesting themes, styles, and skins  It's in there.  Working with databases  You got it.  Interactive forms and validation  You bet.  Charting techniques to help you visualize data  Bam!  And you'll get full coverage of these great Flex 4 upgrades:  Next generation Spark components-New buttons, form inputs, navigation controls and other visual components replace the Flex 3 \"Halo\" versions. Spark components are easier to customize, which makes skinning and theme design much faster  A new \"network monitor\" allows you to see the data communications between a Flex application and a backend server, which helps when trying to debug applications that are communicating to another system/service  Numerous productivity boosting features that speed up the process of creating applications  A faster compiler to take your human-written source code and convert it into a machine-readable format  Built-in support for unit testing allows you to improve the quality of your software, and reduce the time spent in testing",
     "status": "PUBLISH",
-    "authors": ["Tariq Ahmed", "Dan Orlando", "John C. Bland II", "Joel Hooks"],
+    "authors": "Tariq Ahmed, Dan Orlando, John C. Bland II, Joel Hooks",
     "categories": ["Internet"]
   },
   {
@@ -53,7 +53,7 @@
     "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alag.jpg",
     "longDescription": "There's a great deal of wisdom in a crowd, but how do you listen to a thousand people talking at once  Identifying the wants, needs, and knowledge of internet users can be like listening to a mob.    In the Web 2.0 era, leveraging the collective power of user contributions, interactions, and feedback is the key to market dominance. A new category of powerful programming techniques lets you discover the patterns, inter-relationships, and individual profiles   the collective intelligence   locked in the data people leave behind as they surf websites, post blogs, and interact with other users.    Collective Intelligence in Action is a hands-on guidebook for implementing collective-intelligence concepts using Java. It is the first Java-based book to emphasize the underlying algorithms and technical implementation of vital data gathering and mining techniques like analyzing trends, discovering relationships, and making predictions. It provides a pragmatic approach to personalization by combining content-based analysis with collaborative approaches.    This book is for Java developers implementing collective intelligence in real, high-use applications. Following a running example in which you harvest and use information from blogs, you learn to develop software that you can embed in your own applications. The code examples are immediately reusable and give the Java developer a working collective intelligence toolkit.    Along the way, you work with, a number of APIs and open-source toolkits including text analysis and search using Lucene, web-crawling using Nutch, and applying machine learning algorithms using WEKA and the Java Data Mining (JDM) standard.",
     "status": "PUBLISH",
-    "authors": ["Satnam Alag"],
+    "authors": "Satnam Alag",
     "categories": ["Internet"]
   },
   {
@@ -64,7 +64,7 @@
     "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/davis.jpg",
     "longDescription": "Service Oriented Architecture, or SOA, has become embraced by many organizations as a means of improving reusability of software assets; providing better alignment between business and IT; and, increasing agility for responding to demands in the marketplace. This is accomplished by breaking individual units of functionality into services that can then be exposed through open protocols and standards.    Until recently, many of the software technologies used for developing SOA-based solutions were limited to expensive, commercial offerings. However, that has now changed, and a compelling open source SOA platform can be implemented exclusively with open source products. This book identifies a suite of open source products that can be used for a building SOA environment, and describes how they can be integrated by practitioners. It includes a hands-on introduction to the products selected; a multitude of source code examples; and implementation through real-life case studies.",
     "status": "PUBLISH",
-    "authors": ["Jeff Davis"],
+    "authors": "Jeff Davis",
     "categories": ["Java"]
   },
   {
@@ -75,7 +75,7 @@
     "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dbrown.jpg",
     "longDescription": "The original Struts project revolutionized Java web development and its rapid adoption resulted in the thousands of Struts-based applications deployed worldwide. Keeping pace with new ideas and trends, Apache Struts 2 has emerged as the product of a merger between the Apache Struts and OpenSymphony WebWork projects, united in their goal to develop an easy-to-use yet feature-rich framework. Struts 2 represents a revolution in design and ease of use when compared to classic Struts. It adds exciting and powerful features such as a plugin framework, JavaServer Faces integration, and XML-free configuration.    Struts 2 In Action introduces the Apache Struts 2 web application framework and shows you how to quickly develop professional, production-ready modern web applications. Written by Don Brown, one of the leading developers of Struts 2, Chad Davis, a passionate Struts 2 developer, along with Scott Stanlick, this book gently walks you through the key features of Struts 2 in example-driven, easy-to-digest sections.    Struts 2 in Action delivers accurate, seasoned information that can immediately be put to work. This book is designed for working Java web developers   especially those with some background in Struts 1 or WebWork. The core content, covering key framework components such as Actions, Results, and Interceptors, includes new features like the annotation-based configuration options. You'll find chapters on Struts 2 plugins, FreeMarker, and migration from Struts 1 and WebWork 2. Finally, new topics such as the Ajax tags, Spring Framework integration, and configuration by convention give familiar subjects new depth.",
     "status": "PUBLISH",
-    "authors": ["Donald Brown", "Chad Michael Davis", "", "Scott Stanlick"],
+    "authors": "Donald Brown, Chad Michael Davis, Scott Stanlick",
     "categories": ["Java"]
   },
   {
@@ -86,12 +86,7 @@
     "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/delia.jpg",
     "longDescription": "The Essential Guide to PeopleSoft Development and Customization is an exhaustive, as well as practical, guide that covers PeopleSoft 7.5 and many new features in release 8.0. Both novice and experienced programmers will benefit from the detailed coverage of topics ranging from the basics of Application Designer to the proper use of PeopleCode within the Application Processor.    The book serves as both a reference and a tutorial and covers advanced topics that other books avoid. The reader can gain valuable expertise by following the exercises and building sample applications and utilities.    Extensive coverage of PeopleCode including scroll and function library examples can be found as well as methodology behind customization and upgrades. Discover how to effectively utilize SQR and Process Scheduler. Master various levels of PeopleSoft security.    Most developers won t touch PeopleSoft COBOL programs with a ten foot pole. Expand your horizons by uncovering the secrets of PeopleSoft COBOL and the PTPSQLRT module and even walk through a sample customization. Application Engine is a powerful PeopleTool - but one of the least understood. Through a series of simple but effective exercises the reader will learn Application Engine concepts such as dynamic SQL, decision logic and dynamic sections. A useful Application Engine utility is produced that will enhance the delivered Process Scheduler panels. This book takes a soup-to-nuts approach leading the reader through the full cycle of application development.    The four authors are truly experts in the field and provide the reader with the skills necessary to compete in the PeopleSoft marketplace for years to come. Special sections are included which provide detailed information on new features in PeopleSoft release 8. The reader will gain valuable insight into the next generation of PeopleTools.    Exciting new features such as the new PeopleCode Debugger and PeopleCode dot notation using a new series of object classes are revealed. Also covered are Application Designer enhancements and improved Process Scheduler design and SQR support.    See firsthand how Application Engine has been turbo-charged with a new line of meta-constructs, PeopleCode actions, file handling capability and a new integrated design. The authors primary goal was not to be the first book on the market... it was to be the best.",
     "status": "PUBLISH",
-    "authors": [
-      "Tony DeLia",
-      "Galina Landres",
-      "Isidor Rivera",
-      "Prakash Sankaran"
-    ],
+    "authors": "Tony DeLia, Galina Landres, Isidor Rivera, Prakash Sankaran",
     "categories": ["Client-Server"]
   },
   {
@@ -102,7 +97,7 @@
     "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dennis.jpg",
     "longDescription": "If you need high performance, or a rich user experience, you should consider multithreading. With .NET you can develop stable and robust multithreaded applications with minimal effort. .NET Multithreading teaches the basics in an understandable and practical way. It then focuses on .NET's mechanisms for multithreading and shows how easy it can be to develop applications with them. The book covers several design approaches such as one-thread-one-class, the asynchronous design pattern, and using queues as buffers between threads. It explains best practices and how to avoid common multithreading pitfalls such as deadlock and race conditions.    This book is written for intermediate .NET developers who know C# or VB .NET, but are not assumed to have a background in multithreading. It is rich in examples that will help you understand the subject and produce multithreaded applications that have the power of C++ while keeping the ease and reliability of .NET.",
     "status": "PUBLISH",
-    "authors": ["Alan Dennis"],
+    "authors": "Alan Dennis",
     "categories": ["Microsoft .NET", "Internet"]
   },
   {
@@ -114,7 +109,7 @@
     "shortDescription": "Now in its Second Edition, Up to Speed with Swing is for you if you want to get on the fast track to Java Swing. The second edition has been extensively updated to cover Java 1.2 with additional code examples and illustrations.",
     "longDescription": "Now in its Second Edition, Up to Speed with Swing is for you if you want to get on the fast track to Java Swing. The second edition has been extensively updated to cover Java 1.2 with additional code examples and illustrations.    Guided by a master programmer who writes Java for a living, you'll learn Swing from the insider's point of view. Up to Speeed with Swing has one purpose: to save you time mastering Swing. From the basics of Swing to creating a custom look and feel, or from the Model View Controller (MVC) architecture to optimizing your Swing code, this tutorial gives you an understanding of the big picture as well as the experience of working through detailed examples.",
     "status": "PUBLISH",
-    "authors": ["Steven Gutz"],
+    "authors": "Steven Gutz",
     "categories": ["Java"]
   },
   {
@@ -126,13 +121,7 @@
     "shortDescription": "OSGi in Action is a comprehensive guide to OSGi with two primary goals. First, it provides a clear introduction to OSGi concepts with examples that are relevant both for architects and developers. The central idea of OSGi is modularity, so you start by learning about OSGi bundles. You'll then see how OSGi handles module lifecycles and follow up with how it promotes service-oriented interaction among application components.",
     "longDescription": "If you're a Java developer, you've almost certainly heard of OSGi   and also heard that it's becoming quite a big deal. But you may still be wondering exactly \"What is OSGi \"    Simply put, OSGi is a technology that allows you to create highly modular Java applications. It introduces a logical and physical module format, called a bundle, for explicitly structuring your application as a set of interconnected modules. OSGi lets you install, start, stop, update, or uninstall modules at execution time without taking down your entire system. In addition, OSGi defines a local service-oriented approach for creating applications out of loosely coupled components.    With the prevalence of modern component and service-based architectures, OSGi is becoming increasingly important. It meshes well with such approaches and greatly simplifies their creation and management. It's the backbone of Eclipse's plugin system as well as many recent JavaEE containers, such as GlassFish v3, WebSphere v6.1, and WebLogic Event Server. Even the SpringSource Application Platform is built on top of it.    OSGi in Action is a comprehensive guide to OSGi with two primary goals.    First, it provides a clear introduction to OSGi concepts with examples that are relevant both for architects and developers. The central idea of OSGi is modularity, so you start by learning about OSGi bundles.    You'll then see how OSGi handles module lifecycles and follow up with how it promotes service-oriented interaction among application components.    With the core concepts well in hand, you'll explore numerous application scenarios and techniques. How much of OSGi do you actually need  How do you embed OSGi inside other containers  What are the best practices for migrating legacy systems to OSGi  How can you embrace and make the most of system dynamism     Expert authors Richard S. Hall, Karl Pauls, and Stuart McCulloch have years of experience both in building OSGi-based systems and in contributing to OSGi implementations such as Apache Felix.",
     "status": "PUBLISH",
-    "authors": [
-      "Richard S. Hall",
-      "Karl Pauls",
-      "Stuart McCulloch",
-      "",
-      "David Savage"
-    ],
+    "authors": "Richard S. Hall, Karl Pauls, Stuart McCulloch, David Savage",
     "categories": ["Internet"]
   }
 ]

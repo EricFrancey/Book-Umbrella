@@ -31,13 +31,7 @@ Book.init(
     },
     authors: {
       type: Sequelize.STRING,
-      allowNull: false,
-      get() {
-        return this.getDataValue('authors').split(',')
-    },
-      set(val) {
-      this.setDataValue('authors',val.join(','+' '));
-    },
+      allowNull: true,
     },
     user_id: {
       type: DataTypes.INTEGER,
