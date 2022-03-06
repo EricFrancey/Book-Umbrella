@@ -19,7 +19,7 @@
 ## Description
 This application is a digital library that enables you to make a profile and save your favourite books for later or add books
 
-![](main/public/img/mainPageSample.jpg)
+![](public/img/mainPageSample.jpg)
 
 ## Usage
 Bookmark this page https://book-umbrella.herokuapp.com/profile
@@ -36,9 +36,11 @@ https://github.com/arbourKyle, EricFrancey, ernestosanchezCS
 
 Reach any of us at: 
 
+Ernesto:
+[ernestosanchez8888@gmail.com]
 
+Eric:
+[eric.g.francey@gmail.com]
+
+Kyle:
 [arbourKyle@gmail.com]
-
-  [ernestosanchez8888@gmail.com]
-
-    [eric.g.francey@gmail.com]
