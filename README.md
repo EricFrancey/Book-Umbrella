@@ -4,43 +4,50 @@
 
 [Description](#description)
 
-[Installation](#installation)
-
 [Usage](#usage)
 
 [License](#license)
 
-[Contributing](#contributing)
-
-[Tests](#tests)
-
-[Questions](#questions)
+[Creators](#creators)
 
 ## Description
-This application is a digital library that enables you to make a profile and save your favourite books for later or add books
+This application is a digital library that enables you to add books to the library or save your favourite books for later
+
 
 ![](public/img/mainPageSample.jpg)
 
+
 ## Usage
 Bookmark this page https://book-umbrella.herokuapp.com/profile
+
+
+
 
 ## License
 This product is under the The Unlicense.
 
 
+
+
 ## Contributing
 Feel free to fork this project and make changes for review, or just simply add books to the library with the built-in feature on your profile
 
-## Questions
-https://github.com/arbourKyle, EricFrancey, ernestosanchezCS 
+
+
+
+## Creators
+https://github.com/arbourKyle, https://github.com/EricFrancey, https://github.com/ernestosanchezCS 
 
 Reach any of us at: 
 
 Ernesto:
+
 [ernestosanchez8888@gmail.com]
 
 Eric:
+
 [eric.g.francey@gmail.com]
 
 Kyle:
+
 [arbourKyle@gmail.com]
