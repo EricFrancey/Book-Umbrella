@@ -1,51 +1,48 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
 
-  * {
-    font-family: 'Poppins', sans-serif;
-  }
+header {
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(91, 120, 173);
+  text-align: center;
+  z-index: 6;
+}
 
-  header {
-    color: white;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-color: rgb(91, 120, 173);
-    text-align: center;
-    z-index: 6;
-  }
+header > nav > a,
+header > h1 > a,
+#logout {
+  color: white;
+}
 
-  header > nav > a,
-  header > h1 >a,
-  #logout
-  {
-    color: white;
-  }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(91, 120, 173);
+  color: white;
+  text-align: center;
+}
+.card {
+  background-color: rgb(224, 217, 217);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  text-align: center;
+  font-family: arial;
+}
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(91, 120, 173);
-    color: white;
-    text-align: center;
-  }
-  .card {
-    background-color: rgb(224, 217, 217);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 93%;
-    margin: 10rem auto;
-    text-align: center;
-    font-family: arial;
-  }
+.authPage,
+.text-center {
+  margin: 6% 0 6% 0;
+}
 
-  .authPage,
-  .text-center
-  {
-    margin: 6% 0 6% 0;
-  }
-
-header, .project:not(:last-child) {
+header,
+.project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
