@@ -18,7 +18,7 @@ This application is a digital library that enables you to add books to the libra
 
 
 ## Usage
-Bookmark this page https://book-umbrella.herokuapp.com/profile
+Bookmark this page https://book-umbrella.herokuapp.com
 
 
 
